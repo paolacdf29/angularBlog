@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Empanadas",
+        "descripcion": "Empanada Venezolana con masa a base de harina de maiz",
+        "precio": 100,
+        "categoria": "principal"
+    },
+    {
+        "nombre": "Tequeños",
+        "descripcion": "dedos de queso envueltos en masa a base de harina",
+        "precio": 100,
+        "categoria": "entrada"
+    },
+    {
+        "nombre": "Golfeados",
+        "descripcion": "Postre tradicional venezolano con relleno de azucar moscada",
+        "precio": 100,
+        "categoria": "dulces"
+    },
+    {
+        "nombre": "Cachitos",
+        "descripcion": "Medialuna rellena de trocitos de jamon",
+        "precio": 100,
+        "categoria": "principal"
+    },
+    {
+        "nombre": "Pasticho",
+        "descripcion": "Version Venezolana de la Lasagna",
+        "precio": 100,
+        "categoria": "principal"
+    }
+]

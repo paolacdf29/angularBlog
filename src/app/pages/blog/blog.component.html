@@ -1,0 +1,28 @@
+<div class="blog-section">
+    <h2 class="">Blog de recetas y comidas</h2>
+    <div class="row">
+        <div class="col-lg-9 col-sm-12">
+            <div class="row justify-content-around">
+
+                <div class="col-lg-5 col-sm-12 post mb-5" *ngFor='let item of posts |async'>
+                    <img src="../../assets/img/gallery/gallery-2.jpg" alt="imagen">
+                    <h4>{{item.titulo}}</h4>
+                    <p>{{item.contenido}}</p>
+                    <button class="btn btn-outline-dark float-right" (click)="postsserv.actualizarpost(item)">Seguir leyendo</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 destacados">
+            <h3>Los más leidos</h3>
+            <h4>Titulo del post</h4>
+            <h4>Titulo del post</h4>
+            <h4>Titulo del post</h4>
+            <h4>Titulo del post</h4>
+            <h4>Titulo del post</h4>
+
+        </div>
+    </div>
+
+    
+</div>

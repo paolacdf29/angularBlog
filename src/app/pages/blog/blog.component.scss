@@ -1,0 +1,57 @@
+.blog-section {
+    margin: 0;
+    padding: 150px 0 200px 0;
+    //background-color: #ffebcd;
+    h2{
+        margin: 0 70px 70px 70px;
+    }
+}
+
+.post {
+    padding: 0 ;
+    background-color: rgba($color: #ffff, $alpha: 0.7);
+    border-bottom: 1px groove gray;
+
+    img{
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 100%;
+        object-fit: cover;
+    }
+    h4{
+        padding: 10px 200px 10px 100px;
+        position: absolute;
+        top: 12%;
+        background-color: rgba($color: #ffff, $alpha: 0.6);
+    }
+    p{
+        padding: 20px;
+        overflow: hidden;
+        max-height: 20px;
+    }
+    button{
+        margin: 0 20px 20px 20px;
+    }
+}
+
+.destacados{
+    h3{
+        font-weight: 200;
+        border-bottom: 1px groove gray;
+        
+    }
+    h4{
+        font-size: 26px;
+        color: gray;
+        margin: 100px 0 0 0;
+        padding-left: 15px;
+        counter-reset: subsection;
+      }
+      
+      h4::before {
+        counter-increment: section;
+        content: counter(section) " ";
+        font-size: 50px;
+        color: lightgray;
+      }
+}
